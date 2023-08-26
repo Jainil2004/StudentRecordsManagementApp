@@ -29,7 +29,10 @@ v1.0.0-alpha2 (Aug 27th, 2023):
    1. initializeCourses (for initializing the core courses for the program)
    2. initializeStudents (for initializing the test student object for the program for testing and other purposes)
 5. UPDATED : Improved the Main program to accomodate the new DataInitializer class.
-6. NEW : added a basic menu driven UI in the main program.
+6. UPDATED : made changes in the Student class for better functioning.
+   1. added a new method getSapId (for locating an specific student object)
+   2. improved the listCourses to tackle the edge case if the student is not enrolled in any course.
+7. NEW : added a basic menu driven UI in the main program.
 With v1.0.0-alpha2 the program is now offers limited functionability. Using the Menu driven UI users can now perform some functions.
 for better understanding of the program working. Please check out the code where I've made comments explaining in brief
 the functioning of all the new and updated features added in this update.
