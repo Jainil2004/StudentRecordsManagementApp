@@ -34,19 +34,29 @@ public class Student {
         return total/ grades.length;
     }
 
-//    display relevant information about the student.
+//    sapId retriever method for locating an specific student object
+    public int getSapId() {
+        return sapId;
+    }
+
+    //    display relevant information about the student.
     public void displayInfo() {
         System.out.println("SAP ID: " + sapId);
         System.out.println("Student Name: " + name);
-        System.out.println("SGPA: " + calculateGPA());
+        System.out.println("SGPA: " + calculateGPA() + "\n");
     }
 
 //    list all the courses the student enrolled in.
     public void listCourses() {
-        System.out.print("Courses enrolled in : ");
+        System.out.print("SAPID = " + getSapId() + "\n");
+        System.out.print("Courses enrolled in: \n");
         for (Course course : coursesEnrolled) {
-            System.out.print(course.getCourseCode() + " - " + course.getCourseName());
+            if (course == null) {
+                System.out.print("Student is not enrolled in any course\n");
+            }
+            else {
+                System.out.print(course.getCourseCode() + " - " + course.getCourseName() + "\n");
+            }
         }
-        System.out.println("\n");
     }
 }
