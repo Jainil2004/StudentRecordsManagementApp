@@ -20,3 +20,16 @@ v1.0.0-alpha1 (Aug 26th, 2023):
 for better understanding of all the methods and how they work. please check out the code where I've made comments
 explaining in brief the functioning of all the different methods mentioned above.
 
+
+v1.0.0-alpha2 (Aug 27th, 2023):
+1. NEW : added the DataInitializer Class to the repo.
+2. NEW : the Class Initializes the main components of the program by giving the user access to the various course instances.
+3. This class offers the initial data storage and maintenance of all the student objects and the various courses.
+4. main methods in the class - 
+   1. initializeCourses (for initializing the core courses for the program)
+   2. initializeStudents (for initializing the test student object for the program for testing and other purposes)
+5. UPDATED : Improved the Main program to accomodate the new DataInitializer class.
+6. NEW : added a basic menu driven UI in the main program.
+With v1.0.0-alpha2 the program is now offers limited functionability. Using the Menu driven UI users can now perform some functions.
+for better understanding of the program working. Please check out the code where I've made comments explaining in brief
+the functioning of all the new and updated features added in this update.
