@@ -65,5 +65,7 @@ UPDATED : made changes in the Student Class
    1. added a new method called addGPA which adds GPA of a students based on the courses enrolled and is designed to work concurrently with the setGrades method
    2. added a new method called removeCourse to de-associate a course which was in past enrolled by the student.
    3. added a new method called isEnrolledInCourse to check whether the student is enrolled in a specific course or not.
-with v1.0.0-alpha3 the main Structure and working of the program is ready. the Main program still remains inoperable/offers limited functionability. As even though the the sub-programs/classes are working and are linked together to work in synchronization the menu-driven UI is still in active development. other than that all the methods in the program are now fully operational.
+with v1.0.0-alpha3 the main Structure and working of the program is ready. the Main program still remains inoperable/offers limited functionability.
+As even though the the sub-programs/classes are working and are linked together to work in synchronization the menu-driven UI is still in active development.
+other than that all the methods in the program are now fully operational.
 for better understanding of the program working. please check out the code where I've made comments explaining in brief the functioning of all the new and updated features added in this update. 
