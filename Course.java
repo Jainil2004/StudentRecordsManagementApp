@@ -44,6 +44,7 @@ public class Course {
         return faculty;
     }
 
+//    method to remove the student from a particular course
     public void removeStudent(Student student) {
         studentsEnrolled.remove(student);
         student.removeCourse(this); // remove the course from the students list.
