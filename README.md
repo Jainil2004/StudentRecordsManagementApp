@@ -105,7 +105,7 @@ other than that all the methods in the program are now fully operational.
 for better understanding of the program working. please check out the code where I've made comments explaining in brief the functioning of all the new and updated features added in this update. 
 
 
-**[LATEST UPDATE] v1.0.0-alpha4 (Sept 2, 2023)**:
+**v1.0.0-alpha4 (Sept 2, 2023)**:
 1. **NEW** : added the UIFeatures Class
 2. **NEW** : the class is one of the main sub-programs which doesnt provide any specific functionallity to the main program. but it is there to simplify the inter-conversation between the different components of the project i.e other core classes like Student, Faculty and Course.
 3. the whole purpose of this class is to simplify the the UI so that it is not intimidating for the user to use the program.
@@ -120,3 +120,9 @@ main methods in the class -
    6. operationsPanel (for displaying all the operations that are avaliable to the user)
 with v1.0.0-alpha4 the project is now fully functional and all of its features are now avaliable for the user to use. with the integration of the UIFeatures class the program and its structure is complete with only non-essential but quality of life features remaining some of which are in development and the others are also scheduled to enter active development phase in the near future.
 for better understanding of the program working. Please check out the code where I've made comments explaining in brief the functioning of all the new and updated features added in this update.
+
+
+**[LATEST UPDATE] v1.0.0-beta (Sept 2, 2023)**:
+1. **UPDATED** : updated the main program to integrate the UIFeatures class and simplified the command-line UI.
+2. **UPDATED** : improved the Data validation system so as to react to exceptions efficiently.
+v1.0.0-beta improves the command line UI in the project while also simplfying it. I have also introduced various data validation checks in the program so as to deal with exceptions efficiently and to ensure that the program works as intended.
