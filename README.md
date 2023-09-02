@@ -69,3 +69,20 @@ with v1.0.0-alpha3 the main Structure and working of the program is ready. the M
 As even though the the sub-programs/classes are working and are linked together to work in synchronization the menu-driven UI is still in active development.
 other than that all the methods in the program are now fully operational.
 for better understanding of the program working. please check out the code where I've made comments explaining in brief the functioning of all the new and updated features added in this update. 
+
+
+[LATEST UPDATE] V1.0.0-alpha4 (Sept 2, 2023):
+1. NEW : added the UIFeatures Class
+2. NEW : the class is one of the main sub-programs which doesnt provide any specific functionallity to the main program. but it is there to simplify the inter-conversation between the different components of the project i.e other core classes like Student, Faculty and Course.
+3. the whole purpose of this class is to simplify the the UI so that it is not intimidating for the user to use the program.
+4. the class also provides abstraction or acts as a upper level over the core classes such that the user doesnt have direct access or is not interacting with the core classes directly. instead the user it asking the UIFeatures to talk to the core classes for it.
+5. communication between the main program and the sub-classes is solely through the UIFeatures class.
+main methods in the class -
+   1. displayAvaliableCourses (to display all the courses that a student can enroll into)
+   2. getStudentById (to locate a specific student object using the SAPID for further operations)
+   3. getCourseByID (to locate a specific course object using the courseID for further operations)
+   4. SAPIDChecker (to verify a student object exists with the given SAPID)
+   5. generateSAPID (to generate a new unique identification SAPID for the student object)
+   6. operationsPanel (for displaying all the operations that are avaliable to the user)
+with v1.0.0-alpha4 the project is now fully functional and all of its features are now avaliable for the user to use. with the integration of the UIFeatures class the program and its structure is complete with only non-essential but quality of life features remaining some of which are in development and the others are also scheduled to enter active development phase in the near future.
+for better understanding of the program working. Please check out the code where I've made comments explaining in brief the functioning of all the new and updated features added in this update.
