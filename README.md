@@ -72,7 +72,7 @@ for better understanding of the program working. Please check out the code where
 the functioning of all the new and updated features added in this update.
 
 
-**v1.0.0-alpha3 (Aug 21st, 2023)**:
+**v1.0.0-alpha3 (Aug 31st, 2023)**:
 1. **NEW** : added the Faculty class to the repo
 2. **NEW** : the class offers various methods to store/retrieve information about the faculty object used in the DataInitializer class.
 3. This class acts as subpart of the two main classes in the program the Student and Course class.
